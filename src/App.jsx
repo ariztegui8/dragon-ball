@@ -7,6 +7,7 @@ import Slider from "./components/Slider";
 
 
 function App() {
+
   return (
     <>
       <Header />
@@ -20,13 +21,14 @@ function App() {
         </div>
       </div>
 
-      <div>
+      
         <Cards />
-      </div>
+     
 
       <div>
         <Slider />
       </div>
+
     </>
   );
 }

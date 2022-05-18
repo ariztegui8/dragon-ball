@@ -9,6 +9,7 @@ import card4 from "../assets/broly.png";
 const Cards = () => {
   return (
     <>
+        <div className='card-container'>
         <div className='d-flex justify-content-evenly py-5 text-center'>
         <Card className='card' style={{ width: '18rem' }}>
             <Card.Img variant="top" src={card1} />
@@ -22,7 +23,7 @@ const Cards = () => {
             </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card className='card' style={{ width: '18rem' }}>
             <Card.Img variant="top" src={card2} />
             <Card.Body>
                 <Card.Title>Vegeta</Card.Title>
@@ -34,7 +35,7 @@ const Cards = () => {
             </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card className='card' style={{ width: '18rem' }}>
             <Card.Img variant="top" src={card3} />
             <Card.Body>
                 <Card.Title>Gohan</Card.Title>
@@ -46,7 +47,7 @@ const Cards = () => {
             </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card className='card' style={{ width: '18rem' }}>
             <Card.Img variant="top" src={card4} />
             <Card.Body>
                 <Card.Title>Broly</Card.Title>
@@ -57,6 +58,7 @@ const Cards = () => {
                 <Button className='btn-card' variant="primary">Ver más</Button>
             </Card.Body>
         </Card>
+        </div>
         </div>
     </>
   )

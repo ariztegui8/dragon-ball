@@ -4,6 +4,7 @@
 
 .banner img{
     width: 100%;
+    filter: brightness(0.5);
 }
 
 .logo img{
@@ -11,6 +12,7 @@
     position: absolute;
     bottom: 50px;
     left: 60px;
+    filter: none;
 }
 
 .esfera img{
@@ -18,6 +20,7 @@
     width: 14%;
     bottom: 238px;
     right: 117px;
+    filter: none;
 }
 
 .btn-card{
@@ -43,4 +46,8 @@
 .card-container{
     background-image: url('./assets/goku-gif1.gif');
     background-size: cover;
+}
+
+.logo-menu{
+    width: 10% !important;
 }

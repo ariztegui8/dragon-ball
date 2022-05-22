@@ -9,6 +9,7 @@ import card4 from "../assets/broly.png";
 const Cards = () => {
   return (
     <>
+        <h1 className="mt-5 text-center">Cards</h1>
         <div className='card-container'>
         <div className='d-flex justify-content-evenly py-5 text-center'>
         <Card className='card' style={{ width: '18rem' }}>

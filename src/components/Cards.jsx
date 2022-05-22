@@ -4,50 +4,71 @@ import card1 from "../assets/goku.png";
 import card2 from "../assets/vegeta.png";
 import card3 from "../assets/gohan.png";
 import card4 from "../assets/broly.png";
+import Modal from './Modal';
 
 
 const Cards = () => {
+
+    const mostrarFoto = ()=>{
+        alert('perro')
+    }
   return (
     <>
         <h1 className="mt-5 text-center">Cards</h1>
         <div className='card-container'>
-        <div className='d-flex justify-content-evenly py-5 text-center'>
-        <Card className='card' style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={card1} />
-            <Card.Body>
-                <Card.Title>Goku</Card.Title>
-            
-                <Button className='btn-card' variant="primary">Ver más</Button>
-            </Card.Body>
-        </Card>
+            <div className='d-flex justify-content-evenly py-5 text-center'>
+                <Card className='card' style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={card1} />
+                    <Card.Body>
+                        <Card.Title>Goku</Card.Title>
+                    
+                        <Button
+                            className='btn-card'
+                            variant="primary"
+                            onClick={mostrarFoto}
+                        >Ver más</Button>
+                    </Card.Body>
+                </Card>
 
-        <Card className='card' style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={card2} />
-            <Card.Body>
-                <Card.Title>Vegeta</Card.Title>
-               
-                <Button className='btn-card' variant="primary">Ver más</Button>
-            </Card.Body>
-        </Card>
+                <Card className='card' style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={card2} />
+                    <Card.Body>
+                        <Card.Title>Vegeta</Card.Title>
+                    
+                        <Button
+                            className='btn-card'
+                            variant="primary"
+                            onClick={mostrarFoto}
+                        >Ver más</Button>
+                    </Card.Body>
+                </Card>
 
-        <Card className='card' style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={card3} />
-            <Card.Body>
-                <Card.Title>Gohan</Card.Title>
-               
-                <Button className='btn-card' variant="primary">Ver más</Button>
-            </Card.Body>
-        </Card>
+                <Card className='card' style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={card3} />
+                    <Card.Body>
+                        <Card.Title>Gohan</Card.Title>
+                    
+                        <Button 
+                            className='btn-card'
+                            variant="primary"
+                            onClick={mostrarFoto}
+                        >Ver más</Button>
+                    </Card.Body>
+                </Card>
 
-        <Card className='card' style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={card4} />
-            <Card.Body>
-                <Card.Title>Broly</Card.Title>
-               
-                <Button className='btn-card' variant="primary">Ver más</Button>
-            </Card.Body>
-        </Card>
-        </div>
+                <Card className='card' style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={card4} />
+                    <Card.Body>
+                        <Card.Title>Broly</Card.Title>
+                    
+                        <Button 
+                            className='btn-card' 
+                            variant="primary"
+                            onClick={mostrarFoto}
+                        >Ver más</Button>
+                    </Card.Body>
+                </Card>
+            </div>
         </div>
     </>
   )

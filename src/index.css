@@ -27,12 +27,13 @@
 
 .card{
     transition: 0.5s;
-    opacity: 0.6;
+    filter: grayscale();
 }
 
 .card:hover{
+    cursor: pointer;
     transform: scale(1.08);
-    opacity: 1;
+    filter: none;
 }
 
 .container-slider{
@@ -40,6 +41,6 @@
 }
 
 .card-container{
-    background-image: url('./assets/fondo-black.jpg');
+    background-image: url('./assets/goku-gif1.gif');
     background-size: cover;
 }

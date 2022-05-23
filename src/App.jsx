@@ -8,8 +8,10 @@ import Slider from "./components/Slider";
 
 function App() {
 
+
   return (
     <>
+    
       <Header />
       <div className="banner">
         <img src={imgBanner} alt="" />
@@ -21,7 +23,7 @@ function App() {
         </div>
       </div>
 
-      
+    
         <Cards />
      
 

@@ -39,15 +39,65 @@
     filter: none;
 }
 
-.container-slider{
-    
-}
-
 .card-container{
     background-image: url('./assets/goku-gif1.gif');
     background-size: cover;
+    border-top: 8px solid black;
 }
 
 .logo-menu{
-    width: 10% !important;
+    width: 16% !important;
+}
+
+.title-card h1{
+    background: black;
+    color: white;
+    width: min-content;
+    margin: auto;
+    padding: 0 60px;
+    border-radius: 7px 7px 0 0;
+}
+
+.title-slider h1{
+    background: black;
+    color: white;
+    width: min-content;
+    margin: auto;
+    padding: 0 60px;
+    border-radius: 7px 7px 0 0;
+}
+
+.container-slider{
+    border-top: 8px solid black;
+}
+
+.container-logo{
+    width: 40%;
+}
+
+.container-header{
+    background-color: #000 !important;
+    padding: 10px 30px !important;
+}
+
+.link1 , .link2 , .link3{
+    padding: 5px 10px 4px 10px !important;
+    border-radius: 7px 7px 0 0;
+ 
+}
+
+.link1:hover, .link2:hover, .link3:hover{
+    background: #fff;
+    color: #000 !important;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+.container-links{
+    transition: 0.5s;
+}
+
+.container-links:hover{
+    border-bottom: 1px solid #fff;
 }

@@ -1,0 +1,54 @@
+  [
+    {   "nombre": "Foto-1",
+        "id": "1",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character1.png"
+    },
+    {   "nombre": "Foto-2",
+        "id": "2",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character2.png"
+    },
+    {   "nombre": "Foto-3",
+        "id": "3",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character3.png"
+    },
+    {   "nombre": "Foto-4",
+        "id": "4",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character4.png"
+    },
+    {   "nombre": "Foto-5",
+        "id": "5",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character5.png"
+    },
+    { "nombre": "Foto-6",
+        "id": "6",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character6.png"
+    },
+    {   "nombre": "Foto-7",
+        "id": "7",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character7.png"
+    },
+    {   "nombre": "Foto-8",
+        "id": "8",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character8.png"
+    },
+    {   "nombre": "Foto-9",
+        "id": "9",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character9.png"
+    },
+    {   "nombre": "Foto-10",
+        "id": "10",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character10.png"
+    }
+]
+
+

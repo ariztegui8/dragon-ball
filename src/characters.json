@@ -48,6 +48,61 @@
         "id": "10",
         "descripcion": "lorem",
         "img": "/assetsPublic/character10.png"
+    },
+    {   "nombre": "Foto-11",
+        "id": "11",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character11.png"
+    },
+    {   "nombre": "Foto-12",
+        "id": "12",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character12.png"
+    },
+    {   "nombre": "Foto-13",
+        "id": "13",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character13.png"
+    },
+    {   "nombre": "Foto-14",
+        "id": "14",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character14.png"
+    },
+    {   "nombre": "Foto-15",
+        "id": "15",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character15.png"
+    },
+    {   "nombre": "Foto-16",
+        "id": "16",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character16.png"
+    },
+    {   "nombre": "Foto-17",
+        "id": "17",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character17.png"
+    },
+    {   "nombre": "Foto-18",
+        "id": "18",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character18.png"
+    },
+    {   "nombre": "Foto-19",
+        "id": "19",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character19.png"
+    },
+    {   "nombre": "Foto-20",
+        "id": "20",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character20.png"
+    },
+    {   "nombre": "Foto-21",
+        "id": "21",
+        "descripcion": "lorem",
+        "img": "/assetsPublic/character21.png"
     }
 ]
 

@@ -79,6 +79,9 @@
 .container-header{
     background-color: #000 !important;
     padding: 10px 30px !important;
+    position: sticky !important;
+    z-index: 2 !important;
+    top: 0 !important;
 }
 
 .link1 , .link2 , .link3{
@@ -106,7 +109,7 @@
 /* Blog */
 .container-blog{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }

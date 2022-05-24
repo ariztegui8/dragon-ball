@@ -1,3 +1,4 @@
+/* Home */
 .banner{
     position: relative;
 }
@@ -100,4 +101,12 @@
 
 .container-links:hover{
     border-bottom: 1px solid #fff;
+}
+
+/* Blog */
+.container-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

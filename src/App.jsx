@@ -1,9 +1,9 @@
 import Header from "./components/Header";
-import imgBanner from './assets/img-banner.webp'
-import logo2 from './assets/logo2.png'
-import esfera from './assets/esfera.png'
-import Cards from "./components/Cards";
-import Slider from "./components/Slider";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Blog from "./components/Blog";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
 
 
 function App() {
@@ -11,26 +11,20 @@ function App() {
 
   return (
     <>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Header />}>
+            <Route index element={<Home />}/>
+            <Route path="blog" element={<Blog />}/>
+            <Route path="about" element={<About />}/>
+            <Route path="contact" element={<Contact />}/>
+
+            <Route path="*" element={<Navigate replace to="/" />}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     
-      <Header />
-      <div className="banner">
-        <img src={imgBanner} alt="" />
-        <div className="logo">
-          <img src={logo2} alt="" />
-        </div>
-        <div className="esfera">
-          <img src={esfera} alt="" />
-        </div>
-      </div>
-
-    
-        <Cards />
-     
-
-      <div>
-        <Slider />
-      </div>
-
     </>
   );
 }

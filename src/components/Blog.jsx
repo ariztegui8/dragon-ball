@@ -4,17 +4,11 @@ import characters from '../characters.json'
 const Blog = () => {
   return (
     <>
-        {characters.map(e => {
-        return(
-          <>
-        
-           <div>
-             <img src={e.img} alt="img" />
-           </div>
-
-          </>
-        )
-      })}
+         <div className='container-blog'>
+          {characters.map(e =>(
+              <img className='col-4' src={e.img} alt="img" />
+          ))}
+         </div>
     </>
   )
 }

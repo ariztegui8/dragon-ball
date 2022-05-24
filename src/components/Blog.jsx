@@ -3,10 +3,17 @@ import React from 'react'
 import characters from '../characters.json';
 import styled from 'styled-components';
 
+const ContainerBlog = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+`;
+
 const OcultarInfo = styled.div`
   position: absolute;
   text-align: center;
-  display: none;
+  /* display: none; */
 `;
 
 const Title = styled.p`
@@ -20,7 +27,6 @@ const ContainerBlogImg = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   position: relative;
 `;
 
@@ -34,20 +40,24 @@ const Imagen = styled.img`
   }
 `;
 
+
+
 const Blog = () => {
+
+
   return (
     <>
-         <div className='p-2 container-blog'>
+        <ContainerBlog className='p-2'>
           {characters.map(e =>(
             <ContainerBlogImg className='col-4 p-2'>
               <Imagen src={e.img} alt="img"/>
-                <OcultarInfo>
+                <OcultarInfo className='ocultar-info'>
                   <Title>{e.nombre}</Title>
-                  <button className='btn btn-secondary'>Ver más</button>
+                  <button className='btn-card btn btn-secondary'>Ver más</button>
                 </OcultarInfo>
             </ContainerBlogImg>
           ))}
-         </div>
+        </ContainerBlog>
     </>
   )
 }

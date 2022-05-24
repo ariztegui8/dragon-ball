@@ -1,18 +1,20 @@
 import React, { useState } from 'react'
-import {Card, Button} from 'react-bootstrap'
+import {Card} from 'react-bootstrap'
 import card1 from "../assets/goku.png";
 import card2 from "../assets/vegeta.png";
 import card3 from "../assets/gohan.png";
 import card4 from "../assets/broly.png";
+import Blog from './Blog';
 
 
 const Cards = () => {
 
-    const [mostrarImg, setMostrarImg] = useState('')
+    const [cards, setCards] = useState(false);
 
-    const mostrarFoto = ()=>{
-        setMostrarImg('perro malvado')
+    const verImagen = ()=>{
+        setCards(true);
     }
+
   return (
     <>
         <div className='title-card'>
@@ -24,12 +26,11 @@ const Cards = () => {
                     <Card.Img variant="top" src={card1} />
                     <Card.Body>
                         <Card.Title>Goku</Card.Title>
-                    
-                        <Button
-                            className='btn-card'
-                            variant="primary"
-                            onClick={mostrarFoto}
-                        >Ver más</Button>
+                        <button
+                            onClick={verImagen}
+                        >Ver Imagen</button>
+
+                        {cards && <img src={card1}/>}
                     </Card.Body>
                 </Card>
 
@@ -37,12 +38,7 @@ const Cards = () => {
                     <Card.Img variant="top" src={card2} />
                     <Card.Body>
                         <Card.Title>Vegeta</Card.Title>
-                    
-                        <Button
-                            className='btn-card'
-                            variant="primary"
-                            onClick={mostrarFoto}
-                        >Ver más</Button>
+                        <a className='btn btn-secondary btn-card' href={card2}>Ver más</a>
                     </Card.Body>
                 </Card>
 
@@ -50,12 +46,7 @@ const Cards = () => {
                     <Card.Img variant="top" src={card3} />
                     <Card.Body>
                         <Card.Title>Gohan</Card.Title>
-                    
-                        <Button 
-                            className='btn-card'
-                            variant="primary"
-                            onClick={mostrarFoto}
-                        >Ver más</Button>
+                        <a className='btn btn-secondary btn-card' href={card3}>Ver más</a>
                     </Card.Body>
                 </Card>
 
@@ -63,12 +54,7 @@ const Cards = () => {
                     <Card.Img variant="top" src={card4} />
                     <Card.Body>
                         <Card.Title>Broly</Card.Title>
-                    
-                        <Button 
-                            className='btn-card' 
-                            variant="primary"
-                            onClick={mostrarFoto}
-                        >Ver más</Button>
+                        <a className='btn btn-secondary btn-card' href={card4}>Ver más</a>
                     </Card.Body>
                 </Card>
             </div>

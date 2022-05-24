@@ -105,11 +105,3 @@
 .container-links:hover{
     border-bottom: 1px solid #fff;
 }
-
-/* Blog */
-.container-blog{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
